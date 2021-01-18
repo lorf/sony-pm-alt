@@ -1,4 +1,4 @@
-FROM python:2-alpine3.9
+FROM python:2.7-alpine
 
 RUN apk add --no-cache gphoto2 exiftool
 RUN pip install --no-cache requests
