@@ -1,5 +1,7 @@
 FROM python:2.7-alpine
 
+LABEL org.opencontainers.image.source=https://github.com/lorf/sony-pm-alt
+
 RUN apk add --no-cache gphoto2 exiftool
 RUN pip install --no-cache requests
 
